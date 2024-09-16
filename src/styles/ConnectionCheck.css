@@ -1,0 +1,21 @@
+.connection-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #343a40;
+}
+  
+.status {
+    font-weight: bold;
+}
+  
+.success {
+    color: #28a745;
+}
+  
+.failure {
+    color: #dc3545;
+}
+  

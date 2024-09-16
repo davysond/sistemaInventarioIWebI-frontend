@@ -1,0 +1,40 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 20px;
+  flex-direction: column; 
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.linkButton {
+  background: #007bff;
+  color: #fff;
+  border: 2px solid #0056b3;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.linkButton:hover {
+  background: #0056b3;
+  border-color: #004080;
+}
+
