@@ -1,0 +1,66 @@
+.registerpage {
+  font-family: 'Poppins', sans-serif; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; /* Preenche a altura total da tela */
+  background-color: #f8f9fa; 
+}
+
+.register-container {
+  background-color: white; 
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Largura máxima do container */
+  text-align: center; 
+}
+
+.register-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-button {
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; /* Largura total */
+}
+
+.register-button:hover {
+  background-color: #218838; /* Verde escuro ao passar o mouse */
+}
+
+.link-button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px; 
+  transition: background-color 0.3s;
+  width: 100%; /* Largura total */
+}
+
+.link-button:hover {
+  background-color: #0056b3; 
+}

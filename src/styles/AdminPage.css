@@ -1,0 +1,147 @@
+.admin-dashboard {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: white; /* Cor de fundo da página */
+    height: 100vh; /* Altura total da viewport */
+    position: relative; /* Para posicionamento do footer */
+}
+
+.admin-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Alinha os botões ao longo da largura do container */
+    width: 100%;
+    max-width: 600px; /* Largura máxima do container */
+    margin-bottom: 20px; /* Espaço abaixo do contêiner */
+    background-color: white; /* Fundo branco para as ações do admin */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    gap: 10px;
+    display: flex; /* Flexbox para alinhar os inputs e botões */
+    flex-direction: column;
+    margin-bottom: 20px; /* Espaçamento entre grupos */
+}
+
+input[type="text"] {
+    padding: 12px; /* Preenchimento interno da caixa de entrada */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento abaixo da caixa de entrada */
+}
+
+.admin-actions button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0; /* Reduzido o espaçamento entre os botões */
+    transition: background-color 0.3s;
+    width: 100%; /* Largura total do botão */
+}
+
+.admin-actions button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
+
+.message {
+    color: red; /* Mensagens de erro em vermelho */
+}
+
+.results {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px; /* Largura máxima do resultado */
+}
+
+.results h2 {
+    margin-bottom: 10px;
+}
+
+.results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results li {
+    background-color: #e9ecef; /* Fundo cinza claro para itens da lista */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px; /* Espaçamento entre os itens */
+    position: relative; /* Para o botão de ocultar */
+}
+
+.results li button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545; /* Vermelho para o botão de ocultar */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.results li button:hover {
+    background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
+}
+
+/* Footer posicionado no canto superior direito */
+.footer {
+    position: absolute;
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    display: flex; /* Flexbox para alinhar os botões do rodapé */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+/* Botões mais largos no footer */
+.footer .button {
+    background-color: #007bff; /* Azul padrão */
+    color: white; /* Texto branco */
+    padding: 12px 20px; /* Preenchimento interno do botão (mais largo) */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+    text-align: center; /* Centraliza o texto no botão */
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.footer .button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+}
+
+.logout-button {
+    background-color: #dc3545; /* Vermelho para o botão de logout */
+}
+
+.link-button {
+    background-color: #007bff; /* Azul para o botão de voltar */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.results {
+    background-color: #d1ecf1; /* Fundo azul claro */
+    border: 1px solid #0c5460; /* Borda azul escura */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px; /* Preenchimento interno */
+    margin-top: 10px; /* Espaço acima da caixa de resposta */
+    transition: box-shadow 0.3s; /* Transição suave para a sombra */
+}
+
+.response-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+}

@@ -1,0 +1,68 @@
+.category-registration-page {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center;
+    height: 100vh; /* Preenche a altura total da tela */
+    background-color: #f0f2f5; /* Fundo leve */
+  }
+  
+  .registration-form {
+    background-color: white; /* Fundo branco */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Largura máxima do container */
+    text-align: left; /* Alinha texto à esquerda */
+  }
+  
+  .registration-form h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center; /* Centraliza o título */
+  }
+  
+  .registration-form label {
+    display: block; /* Exibe rótulos em bloco */
+    margin: 10px 0 5px; /* Espaçamento entre rótulos e campos */
+    font-weight: 500;
+  }
+  
+  .registration-form input,
+  .registration-form textarea {
+    width: 100%; /* Largura total */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espaço abaixo dos campos */
+    font-size: 16px;
+  }
+  
+  .registration-form input[type="number"] {
+    -moz-appearance: textfield; /* Remove os spinner de número em navegadores */
+  }
+  
+  .registration-form input[type="number"]::-webkit-inner-spin-button,
+  .registration-form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Remove os spinner de número em navegadores */
+  }
+  
+  .registration-form button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%; /* Largura total */
+    transition: background-color 0.3s;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+  }
+  

@@ -1,40 +1,98 @@
-.container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  text-align: center; 
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  margin-bottom: 20px;
-  flex-direction: column; 
-}
-
-.buttonGroup {
-  display: flex;
-  justify-content: center; 
-  gap: 15px;
-  margin-top: 15px;
-}
-
-.linkButton {
-  background: #007bff;
-  color: #fff;
-  border: 2px solid #0056b3;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  transition: background 0.3s ease, border-color 0.3s ease;
-}
-
-.linkButton:hover {
-  background: #0056b3;
-  border-color: #004080;
-}
-
+.homepage {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white; /* Fundo branco para remover o cinza */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between; /* Itens distribuídos entre os extremos */
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .products-section {
+    margin-top: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .error {
+    color: #ff0000;
+    text-align: center;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-item {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-info {
+    text-align: center;
+  }
+  
+  .buy-button {
+    display: block;
+    width: 100%;
+    background-color: transparent; 
+    color: #007bff;
+    border: 2px solid #007bff; 
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #007bff; 
+    color: white; 
+  }
+  

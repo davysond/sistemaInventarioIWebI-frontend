@@ -1,0 +1,87 @@
+/* paymentPageStyles.css */
+.payment-page {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center;
+    height: 100vh; /* Preenche a altura total da tela */
+    background-color: #f0f2f5; /* Fundo leve */
+  }
+  
+  .payment-container {
+    background-color: white; /* Fundo branco */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Largura máxima do container */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .payment-container h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .payment-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-status {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .payment-button {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Largura total */
+  }
+  
+  .payment-button:hover {
+    background-color: #218838; /* Verde escuro ao passar o mouse */
+  }
+  
+  .payment-button:disabled {
+    background-color: #ccc; /* Cinza para estado desabilitado */
+    cursor: not-allowed;
+  }
+  
+  .back-button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço acima */
+    transition: background-color 0.3s;
+    width: 100%; /* Largura total */
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff6600; /* Laranja para indicar carregamento */
+  }
+  
+  .confirmation-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #155724; /* Verde escuro */
+  }
+  
